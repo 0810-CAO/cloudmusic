@@ -8,18 +8,18 @@
 ├── package.json                        包依赖管理           
 ├── postcss.config.js                   px转换为rem
 ├── public                              
-│   ├── apple-touch-icon.png            苹果的私有属性
-│   ├── apple-touch-icon114.png         苹果的私有属性114*114
-│   ├── apple-touch-icon152.png         苹果的私有属性152*152
-│   ├── apple-touch-icon180.png         苹果的私有属性180*180
+│   ├── apple-touch-icon.png            苹果的私有属性
+│   ├── apple-touch-icon114.png         苹果的私有属性114*114
+│   ├── apple-touch-icon152.png         苹果的私有属性152*152
+│   ├── apple-touch-icon180.png         苹果的私有属性180*180
 │   ├── favicon.ico                     网页logo
 │   └── index.html                      首页
 ├── src
 │   ├── App.vue                         主组件
 │   ├── api
-│   │   ├── dist
-│   │   │   ├── index.dev.js
-│   │   │   └── network.dev.js
+│   │   ├── dist
+│   │   │   ├── index.dev.js
+│   │   │   └── network.dev.js
 │   │   ├── index.js                    请求接口方法
 │   │   └── network.js                  封装axios方法及拦截器
 │   ├── assets
@@ -32,7 +32,7 @@
 │   │   └── images                      不同尺寸提供的图片
 │   │ 
 │   ├── components
-│   │   ├── Account
+│   │   ├── Account
 │   │   │   ├── AccountBottom.vue       个人页面底部（歌曲信息）
 │   │   │   └── AccountHeader.vue       个人页面顶部（切换收藏、历史歌曲）
 │   │   ├── Detail
@@ -61,23 +61,23 @@
 │   ├── plugin
 │   │   └── loading                     网络请求等待显示插件（拦截器中使用）
 │   │       ├── Loading.vue
-│   │       ├── dist
-│   │       └── index.js
+│   │       ├── dist
+│   │       └── index.js
 │   ├── router                          路由
 │   │   ├── dist
-│   │   │   └── index.dev.js
-│   │   └── index.js
+│   │   │   └── index.dev.js
+│   │   └── index.js
 │   ├── store                           vuex
 │   │   ├── actions.js
-│   │   ├── getters.js
-│   │   ├── index.js
+│   │   ├── getters.js
+│   │   ├── index.js
 │   │   ├── modeType.js                 播放顺序
 │   │   ├── mutations-type.js
-│   │   ├── mutations.js
-│   │   └── state.js
+│   │   ├── mutations.js
+│   │   └── state.js
 │   ├── tools                           随机数、格式化时间、持久化方法
 │   │   └── tools.js
-│   └── views
+│   └── views
 │       ├── Account.vue                 个人中心
 │       ├── Detail.vue                  详情页（首页歌曲/专辑、歌手、排行榜都需要跳转）
 │       ├── Player.vue                  播放页
