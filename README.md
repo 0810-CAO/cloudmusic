@@ -1,4 +1,5 @@
 # cloudmusic
+```
 .
 ├── README.md			
 ├── babel.config.js			
@@ -86,3 +87,4 @@
 │       └── Singer.vue                  歌手页
 ├── vue-meta-info.js                    SEO内容
 └── vue.config.js                       webpack自定义（预渲染及其优化）
+```
